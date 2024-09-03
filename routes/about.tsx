@@ -10,7 +10,7 @@ export default function AboutPage() {
         <title>من نحن</title>
         <meta
           name="description"
-          content="التعريف بمنصة نخلة"
+          content="التعريف بمنصة الشتاء"
         />
         <meta
           name="keywords"
@@ -19,7 +19,7 @@ export default function AboutPage() {
         <meta property="og:title" content="من نحن" />
         <meta
           property="og:description"
-          content="التعريف بمنصة نخلة"
+          content="التعريف بمنصة الشتاء"
         />
       </Head>
       <main class="flex flex-col h-full-minus-bar">
@@ -30,10 +30,10 @@ export default function AboutPage() {
               src="/Images/logo.webp"
               width="128"
               height="128"
-              title="لوغو نخلة جي اس"
+              title="لوغو الشتاء جي اس"
               alt="Website logo"
             />
-            <h1 class="text-4xl font-bold mb-8">منصة نخلة</h1>
+            <h1 class="text-4xl font-bold mb-8">منصة الشتاء</h1>
 
             <div class="mb-8">
               <p class="font-bold text-lg">
@@ -47,18 +47,6 @@ export default function AboutPage() {
               </h2>
               <p class="opacity-75">
                 في موقعنا، نُقدم مجموعة شاملة من الموارد التعليمية لتعلم لغة البرمجة جافاسكريبت بسهولة وبساطة. بدءًا من دروس البرمجة الأساسية وصولاً إلى المستويات المتقدمة، نركز على تسهيل فهم المفاهيم من خلال التفاعل والتطبيق العملي. نشجع بشدة على التفاعل مع المحتوى والمشاركة الفعَّالة، مما يساعد في بناء مهارات البرمجة بشكل أفضل. هدفنا هو توفير تجربة تعلم فعَّالة وممتعة تعتمد على البساطة والتفاعل، لضمان تطوير مهاراتك بثقة وسهولة.
-              </p>
-            </div>
-
-            <div class="mb-8">
-              <h2 class="text-2xl">
-                المساهمين
-              </h2>
-              <p class="opacity-75">
-                مشروعنا لن يكون ناجحًا بدون مساهمة المحترفين والمحبين للبرمجة في
-                مجتمعنا. يقدم فريقنا محتوى متميزًا ويسهم في بناء مجتمع تعليمي نشط
-                وداعم. تتنوع خلفياتنا وخبراتنا لضمان تقديم محتوى يلبي احتياجات
-                وتطلعات جميع الطلاب.
               </p>
             </div>
 
@@ -114,3 +102,4 @@ export default function AboutPage() {
     </>
   );
 }
+ 
