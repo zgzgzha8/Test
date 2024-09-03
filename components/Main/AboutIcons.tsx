@@ -7,8 +7,8 @@ export default function AboutIcons() {
             <a
                 class="hover:opacity-75"
                 target="_blank"
-                title="تلغرام منصة نخلة"
-                href="https://t.me/NakhlahJS"
+                title="تلغرام منصة الشتاء"
+                href="https://t.me/WinterJTS"
             >
                 <IconBrandTelegram />
             </a>
@@ -16,7 +16,7 @@ export default function AboutIcons() {
                 class="hover:opacity-75"
                 target="_blank"
                 title="سورس منصة نخلة"
-                href="https://github.com/TeaByte/NakhlahJS"
+                href="https://github.com/Hyodu/winter"
             >
                 <IconBrandGithub />
             </a>
