@@ -37,7 +37,7 @@ export default function Courses({ courses, total }: CoursesProps) {
         <div>
           <p className="mt-3 text-2xl">نعمل على الدروس القادمة...</p>
           <a
-            href="https://github.com/TeaByte/NakhlahJS"
+            href="https://github.com/Hyodu/winter"
             className="text-gray-500 hover:underline"
             target="_blank"
           >

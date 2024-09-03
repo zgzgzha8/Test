@@ -8,12 +8,12 @@ export default function Footer() {
           <div class="flex items-center gap-1">
             <a
               href="/"
-              title="نخلة جي اس"
+              title="شتاء جي اس"
               data-current="true"
               aria-current="page"
             >
               <img
-                title="نخلة جي اس"
+                title="شتاء جي اس"
                 alt="Website logo"
                 src="/Images/logo.webp"
                 class="h-8 w-8"
@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
             <a
               href="/"
-              title="نخلة جي اس"
+              title="شتاء جي اس"
               class="text-2xl ml-1 font-bold hover:animate-pulse"
               data-current="true"
               aria-current="page"
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
         </div>
         <div class="text-gray-500 mt-1 w-[200px] md:w-fit">
-          اكتسب مهارات جافاسكربت بسهولة وفعالية مع منصة نخلة
+          اكتسب مهارات جافاسكربت بسهولة وفعالية مع منصة الشتاء
         </div>
       </div>
       <div class="mb-4" data-fresh-key="الصفحات">
@@ -49,32 +49,9 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div class="mb-4" data-fresh-key="المجتمع">
-        <div class="font-bold">المجتمع</div>
-        <ul class="mt-2">
-          <li class="mt-2" data-fresh-key="قناة التلغرام">
-            <a
-              class="text-gray-500 hover:text-gray-700"
-              href="https://t.me/NakhlahJS"
-              target="_blank"
-            >
-              قناة التلغرام
-            </a>
-          </li>
-          <li class="mt-2" data-fresh-key="المجتمع">
-            <a
-              class="text-gray-500 hover:text-gray-700"
-              href="https://t.me/NakhlahChat"
-              target="_blank"
-            >
-              جروب التلغرام
-            </a>
-          </li>
-        </ul>
-      </div>
       <div class="text-gray-500 space-y-2">
         <a
-          href="https://github.com/TeaByte/NakhlahJS"
+          href="https://github.com/Hyodu/winter"
           class="inline-block hover:text-black"
           aria-label="GitHub"
           target="_blank"

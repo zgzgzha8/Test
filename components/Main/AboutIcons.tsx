@@ -1,4 +1,4 @@
-import IconBrandTelegram from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-telegram.tsx";
+import IconBrandTelegram from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-instagram.tsx";
 import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-github.tsx";
 
 export default function AboutIcons() {
@@ -7,16 +7,16 @@ export default function AboutIcons() {
             <a
                 class="hover:opacity-75"
                 target="_blank"
-                title="تلغرام منصة نخلة"
-                href="https://t.me/NakhlahJS"
+                title="انستغرام منصة الشتاء"
+                href="https://www.instagram.com/nm9h"
             >
-                <IconBrandTelegram />
+                <IconBrandInstagram />
             </a>
             <a
                 class="hover:opacity-75"
                 target="_blank"
-                title="سورس منصة نخلة"
-                href="https://github.com/TeaByte/NakhlahJS"
+                title="سورس منصة الشتاء"
+                href="https://github.com/Hyodu/winter"
             >
                 <IconBrandGithub />
             </a>
