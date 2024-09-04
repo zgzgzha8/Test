@@ -26,7 +26,7 @@ function handleCodeRun(code) {
 code += "\nconsole.log(myArray);";
 const out = handleCodeRun(code);
 
-if (out === '["Saad",15,"b","c","d"]') {
+if (out === '["b","c","d"]') {
   isPass = true;
 } else {
   msg = "Fail!";
