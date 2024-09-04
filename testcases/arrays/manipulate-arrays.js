@@ -9,7 +9,7 @@ function handleCodeRun(code) {
             return JSON.stringify(arg);
           }
           return arg.toString();
-        }).join(" "),
+        }).join(" ")
       );
       originalConsoleLog(...args);
     };
@@ -23,11 +23,15 @@ function handleCodeRun(code) {
   }
 }
 
-code += "\nconsole.log(myArray);";
+// إضافة السطر إلى الكود المراد تنفيذه
+let code = 'console.log(myArray);';
 const out = handleCodeRun(code);
+
+let isPass = false;
+let msg = '';
 
 if (out === '["b","c","d"]') {
   isPass = true;
 } else {
   msg = "Fail!";
-}
+  }
